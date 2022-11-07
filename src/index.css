@@ -53,7 +53,7 @@ h1{
 section{
   margin: 8rem;
 }
-section > h2, section h5{
+section > h2, section > h5{
   text-align: center;
   color: var(--color-light);
 }
