@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 :root{
-  --color-bg: #c0b189;
+  --color-bg: #B3AA99;
   --color-bg-variant: #91a172;
   --color-primary: #316069;
   --color-primary-variant: rgba(77,181,255,0.4);
@@ -26,6 +26,7 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
+/* #c0b189 */
 html{
   scroll-behavior: smooth;
 }
