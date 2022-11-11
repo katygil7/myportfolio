@@ -23,7 +23,7 @@ const about = () => {
           <article className='about_card'>
             <FaAward className='about_icon' />
             <h5>Experience</h5>
-            <small>CodeUp Full Stack Web Development, 2022</small>
+            <small>CodeUp Full Stack Web Development</small>
           </article>
 
           <article className='about_card'>
@@ -37,7 +37,7 @@ const about = () => {
           <article className='about_card'>
             <FaUserGraduate className='about_icon' />
             <h5>Education</h5>
-            <small>CodeUp Full Stack Web Development, 2022</small>
+            <small>CodeUp 2022</small>
             {/* <small>William Peace University</small> */}
           </article>
         </div>
