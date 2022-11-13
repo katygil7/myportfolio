@@ -12,29 +12,39 @@ function Experience() {
           <h3>Front Development</h3>
           <div className='experience_content'>
             <article className='experience_details'>
-              <BsFillPatchCheckFill />
-              <h4>HTML</h4>
-              <small className='text-light'>Intermediate</small>
+              <BsFillPatchCheckFill className='experience_details-icon' />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill />
-              <h4>CSS</h4>
-              <small className='text-light'>Intermediate</small>
+              <BsFillPatchCheckFill experience_details-icon />
+              <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className='text-light'>Intermediate</small>
+              <BsFillPatchCheckFill experience_details-icon />
+              <div>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill />
-              <h4>Bootstrap</h4>
-              <small className='text-light'>Intermediate</small>
+              <BsFillPatchCheckFill experience_details-icon />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
             <article className='experience_details'>
-              <BsFillPatchCheckFill />
-              <h4>React</h4>
-              <small className='text-light'>Intermediate</small>
+              <BsFillPatchCheckFill experience_details-icon />
+              <div>
+                <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
@@ -44,13 +54,17 @@ function Experience() {
           <div className='experience_content'>
             <article className='experience_details'>
                 <BsFillPatchCheckFill />
-                <h4>Java</h4>
-                <small className='text-light'>Intermediate</small>
+                <div>
+                  <h4>Java</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
               </article>
               <article className='experience_details'>
               <BsFillPatchCheckFill />
-              <h4>MySQL</h4>
-              <small className='text-light'>Intermediate</small>
+              <div>
+                <h4>MySQL</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
