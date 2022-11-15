@@ -1,9 +1,23 @@
 import React from 'react'
 import './portfolio.css'
 
+
 function Portfolio() {
   return (
-    <section id='portfolio'>Portfolio</section>
+    <section id='portfolio'>
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
+
+      <div className='container portfolio_container'>
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'></div>
+          <h3>This is a portfolio item title</h3>
+
+        </article>
+
+      </div>
+
+    </section>
   )
 }
 
