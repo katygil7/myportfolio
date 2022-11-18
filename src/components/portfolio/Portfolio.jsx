@@ -20,15 +20,19 @@ function Portfolio() {
           <img src={IMG4} alt = ""/>
           </div>
           <h3>iPlant</h3>
-          <a href='https://github.com/i-Plant/iPlant' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <div className="portfolio_item-cta">
+            <a href='https://github.com/i-Plant/iPlant' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          </div>
         </article>
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
             <img src={IMG3} alt = ""/>
           </div>
-          <h3>GreenCup Films</h3>
-          <a href='https://github.com/GreenCup-Films/movies-kat-louie' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <h3>GreenCupFilms</h3>
+          <div className="portfolio_item-cta">
+            <a href='https://github.com/GreenCup-Films/movies-kat-louie' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          </div>
         </article>
 
         <article className='portfolio_item'>
@@ -36,15 +40,19 @@ function Portfolio() {
           <img src={IMG2} alt = ""/>
           </div>
           <h3>WeatherMap</h3>
-          <a href='https://github.com/katygil7/codeup-web-exercises/blob/main/weather_map.html' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
-        </article>
+          <div className="portoflio_item-cta">
+            <a href='https://github.com/katygil7/codeup-web-exercises/blob/main/weather_map.html' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          </div>
+          </article>
 
         <article className='portfolio_item'>
           <div className='portfolio_item-image'>
           <img src={IMG1} alt = ""/>
           </div>
           <h3>Coffee</h3>
-          <a href='https://github.com/katygil7/coffee-katherine-jacob' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          <div className="portfolio_item-cta">
+            <a href='https://github.com/katygil7/coffee-katherine-jacob' className='btn' target='_blank' rel="noopener noreferrer">Github</a>
+          </div>
         </article>
 
 
