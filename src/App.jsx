@@ -8,18 +8,18 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
-function App() {
+const App = () => {
   return (
-   <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
-   </>
-  );
+    <>
+       <Header />
+       <Nav />
+       <About />
+       <Experience />
+       <Portfolio />
+       <Contact />
+       <Footer />
+    </>
+   );
 }
 
-export default App;
+export default App

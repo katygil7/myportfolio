@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './nav.css'
-import {GrHome} from 'react-icons/gr'
-import {GrUserFemale} from 'react-icons/gr'
+import {AiOutlineHome} from 'react-icons/ai'
+import {AiOutlineUser} from 'react-icons/ai'
 import {MdWorkOutline} from 'react-icons/md'
-import {GrBook} from 'react-icons/gr'
+import {CgWorkAlt} from 'react-icons/cg'
 import {BiMessageDetail} from 'react-icons/bi'
-// import { useState } from 'react'
+import {useState} from 'react'
 
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#top')
   return (
     <nav>
-      <a href='#top' onClick={() => setActiveNav('#top')} className={activeNav === '#top' ? 'active' : ''}><GrHome/ ></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><GrUserFemale/ ></a>
+      <a href='#top' onClick={() => setActiveNav('#top')} className={activeNav === '#top' ? 'active' : ''}><AiOutlineHome/ ></a>
+      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/ ></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><MdWorkOutline/ ></a>
-      <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GrBook/ ></a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail/></a>
+      <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><CgWorkAlt/ ></a>
+      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail/ ></a>
     </nav>
   )
 }

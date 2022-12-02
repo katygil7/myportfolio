@@ -5,7 +5,7 @@ import {FaAward} from 'react-icons/fa'
 import {FaUserGraduate} from 'react-icons/fa'
 import {CgUserlane} from 'react-icons/cg'
 
-const about = () => {
+const About = () => {
   return (
    <section id='about'>
     <h5>Get To Know</h5>
@@ -17,6 +17,7 @@ const about = () => {
           <img src={ME} alt='About Me' />
         </div>
       </div>
+      
       <div className='about_content'>
         <div className='about_cards'>
 
@@ -41,13 +42,8 @@ const about = () => {
             {/* <small>William Peace University</small> */}
           </article>
         </div>
-
         <p>
-        Software developer and Army Veteran with technical and management 
-        experience as a logistics specialist. Utilizing full-stack languages 
-        enhanced by the appropriate development frameworks in order to produce 
-        efficient code that maximizes performance while maintaining existing 
-        software functionality.
+        Software developer and Army Veteran with technical and management experience as a logistics specialist. Utilizing full-stack languages enhanced by the appropriate development frameworks in order to produce efficient code that maximizes performance while maintaining existing software functionality.
         </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
@@ -60,4 +56,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

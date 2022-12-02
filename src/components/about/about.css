@@ -6,13 +6,13 @@
 .about_me{
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
     display: grid;
     place-items: center;
 }
 .about_me-image{
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
@@ -28,14 +28,14 @@
 .about_card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
 }
 .about_card:hover{
     background: transparent;
-    border-color: var(--color-bg-variant);
+    border-color: var(--color-primary-variant);
     cursor: default;
 }
 .about_icon{
@@ -52,12 +52,12 @@
 }
 .about_content p {
     margin: 2rem 0 2.6rem;
-        color: var(--color-light);
+    color: var(--color-light);
 }
 
 /* Media Queries */
 /* Tablets */
- @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .about_container{
         grid-template-columns: 1fr;
         gap: 0;
@@ -72,7 +72,7 @@
 
 }
 /* Mobiles */
- @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     .about_me{
         width: 65%;
         margin: 0 auto 3rem;
