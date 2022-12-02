@@ -17,7 +17,7 @@
 .portfolio_item-image{
     border-radius: 0.3rem;
     border: solid;
-    border-color: rgba(0, 0, 0,0.3);
+    border-color: rgba(0, 0, 0, 0.106);
     overflow: hidden;
 }
 .portfolio_item h3{

@@ -21,7 +21,7 @@ const Contact = () => {
     <h5>Get In Touch</h5>
     <h2>Contact Me</h2>
     
-   <div className="container contact_container"></div>
+   <div className="container contact_container">
     <div className='contact_options'>
       <article className='contact_option'>
         <MdOutlineMailOutline className='contact_option-icon' />
@@ -35,7 +35,7 @@ const Contact = () => {
         <h5>+12105604454</h5>
         <a href='https://api.whatsapp.com/send?phone=+12105604454' target={'_blank'}>Send a message</a>
       </article>
-      
+    </div>
 
 
       <form ref={form} onSubmit={sendEmail}>
@@ -45,7 +45,6 @@ const Contact = () => {
         <button type='submit'value='send' className='btn btn-primary'>Send Message</button>
       </form>
     </div>
-
    </section>
   )
 }
