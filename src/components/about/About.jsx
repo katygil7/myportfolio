@@ -30,16 +30,13 @@ const About = () => {
           <article className='about_card'>
             <CgUserlane className='about_icon' />
             <h5>Hobbies</h5>
-            <small>Crossfit Athlete</small>
-            {/* <small>Mountain Biking</small>
-            <small>Personla Growth Enthusiastic</small> */}
+            <small>Crossfit Athlete, Mountain Biking, Personal Growth Enthusiastic</small>
           </article>
 
           <article className='about_card'>
             <FaUserGraduate className='about_icon' />
             <h5>Education</h5>
-            <small>CodeUp 2022</small>
-            {/* <small>William Peace University</small> */}
+            <small>CodeUp 2022, William Peace University</small>
           </article>
         </div>
         <p>

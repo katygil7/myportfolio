@@ -33,15 +33,15 @@ const Contact = () => {
         <FaWhatsappSquare className='contact_option-icon' />
         <h4>WhatsApp</h4>
         <h5>+12105604454</h5>
-        <a href='https://api.whatsapp.com/send?phone=+12105604454' target={'_blank'}>Send a message</a>
+        <a href='https://api.whatsapp.com/send?phone=12105604454' target='_blank' rel='noopener noreferrer'>Send a message</a>
       </article>
     </div>
 
 
       <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name='name' placeholder='Your Full Name' required/>
-        <input type="text" name='email' placeholder='Your Email' required/>
-        <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+        <input type='text' name='name' placeholder='Your Full Name' required/>
+        <input type='text' name='email' placeholder='Your Email' required/>
+        <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
         <button type='submit'value='send' className='btn btn-primary'>Send Message</button>
       </form>
     </div>
