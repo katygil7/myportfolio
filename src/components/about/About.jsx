@@ -40,7 +40,7 @@ const About = () => {
           </article>
         </div>
         <p>
-        Software developer and Army Veteran with technical and management experience as a logistics specialist. Utilizing full-stack languages enhanced by the appropriate development frameworks in order to produce efficient code that maximizes performance while maintaining existing software functionality.
+        Software developer and Army Veteran with technical and management experience as a logistics specialist. Enthusiastic and eager to contribute to team success through hard work, attention to detail and excellent organizational and communication skills. Utilizing full-stack languages enhanced by the appropriate development frameworks in order to produce efficient code that maximizes performance while maintaining existing software functionality.
         </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
