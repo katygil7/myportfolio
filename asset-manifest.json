@@ -1,12 +1,12 @@
 {
   "main.css": "/myportfolio/static/css/main.350cc376.chunk.css",
-  "main.js": "/myportfolio/static/js/main.d76c58c8.chunk.js",
-  "main.js.map": "/myportfolio/static/js/main.d76c58c8.chunk.js.map",
+  "main.js": "/myportfolio/static/js/main.7c75a2d6.chunk.js",
+  "main.js.map": "/myportfolio/static/js/main.7c75a2d6.chunk.js.map",
   "static/js/1.c8967222.chunk.js": "/myportfolio/static/js/1.c8967222.chunk.js",
   "static/js/1.c8967222.chunk.js.map": "/myportfolio/static/js/1.c8967222.chunk.js.map",
   "runtime~main.js": "/myportfolio/static/js/runtime~main.6b6f225b.js",
   "runtime~main.js.map": "/myportfolio/static/js/runtime~main.6b6f225b.js.map",
-  "static/media/katherine-resume.pdf": "/myportfolio/static/media/katherine-resume.bfd3599f.pdf",
+  "static/media/katherine.gil-resume.pdf": "/myportfolio/static/media/katherine.gil-resume.fd4c3c57.pdf",
   "static/media/me.PNG": "/myportfolio/static/media/me.3d33eca8.PNG",
   "static/media/IMG1.png": "/myportfolio/static/media/IMG1.3c0720f0.png",
   "static/media/IMG2.png": "/myportfolio/static/media/IMG2.933b8ca1.png",
@@ -14,6 +14,6 @@
   "static/media/IMG4.png": "/myportfolio/static/media/IMG4.3d7c4b8d.png",
   "static/css/main.350cc376.chunk.css.map": "/myportfolio/static/css/main.350cc376.chunk.css.map",
   "index.html": "/myportfolio/index.html",
-  "precache-manifest.b93b968dcf36ccfa722aeeed181c99c3.js": "/myportfolio/precache-manifest.b93b968dcf36ccfa722aeeed181c99c3.js",
+  "precache-manifest.a18ed5add7fc8058b7ceb4ae3832dc2e.js": "/myportfolio/precache-manifest.a18ed5add7fc8058b7ceb4ae3832dc2e.js",
   "service-worker.js": "/myportfolio/service-worker.js"
 }
